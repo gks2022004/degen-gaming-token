@@ -8,10 +8,8 @@ This program is a simple smart contract written in Solidity, a programming langu
 
 ## Getting started
 
-1. Clone the repository:
- ```bash
-git clone <https://github.com/gks2022004/degen-gaming-token.git>
-```
+1. Clone the repository
+
 2. Install the dependencies :
  ```bash  
 cd  dengen-gaming-token
