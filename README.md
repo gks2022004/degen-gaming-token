@@ -9,9 +9,9 @@ This program is a simple smart contract written in Solidity, a programming langu
 ## Getting started
 
 1. Clone the repository:
-   ```bash
-   git clone <https://github.com/gks2022004/degen-gaming-token.git>
-
+```bash
+git clone <https://github.com/gks2022004/degen-gaming-token.git>
+```
 3. Install the dependencies :
  ```bash  
 cd  dengen-gaming-token
@@ -57,9 +57,9 @@ This will show the transcations like mint, deployed,burn etc.
 ## License
 
 
-                                                                         Apache License
-                                                                   Version 2.0, January 2004
-                                                                 http://www.apache.org/licenses/
+                                                          Apache License
+                                                     Version 2.0, January 2004
+                                                   http://www.apache.org/licenses/        
 
 
 
