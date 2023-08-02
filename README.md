@@ -27,7 +27,7 @@ In the second terminal type: `npx hardhat node`.
 
 Before running the script make sure you have enough test avax in your metamask wallet. If not go to: https://faucet.avax.network/
 
-In the third terminal, type: `npx hardhat run scripts/deploy.js --network fuji`
+In the third terminal, type: `npx hardhat run scripts/main.js --network fuji`
 
 Can verify by typing: `npx hardhat verify (token address) --network fuji`
 
