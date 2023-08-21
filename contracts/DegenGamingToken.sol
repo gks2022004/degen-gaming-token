@@ -24,7 +24,7 @@ contract DegenToken is ERC20, Ownable{
         return this.balanceOf(msg.sender);
     }
 
-    string public storeItems = "The following items are available to be redeemed for tokens; 1 Official degen NFT(100 DGN) 2 The sword of Valkyrie(200 DGN) 3 The cube of bliss(300 DGN) 4 Dragon's breath(400 DGN)";
+    string public storeItems = "The following items are available to be redeemed for tokens; 1 Official degen NFT(100 DGN) 2 The Hammer of Ragnarok(200 DGN) 3 The sword of god(300 DGN) 4 Dragon's breath(400 DGN)";
 
     function redeemTokens(uint8 num) external returns(string memory){
         if(num == 1){
@@ -38,14 +38,14 @@ contract DegenToken is ERC20, Ownable{
             require(balanceOf(msg.sender) >= 200, "You do not have enough Degen Tokens");
             bool success = transfer(ownerOfContract, 200);
             if(success == true){
-                return "You are now the proud owner of The sword of Valkyrie!";
+                return "You are now the proud owner of The Hammer of Ragnarok!";
             }
         }
         else if(num == 3){
             require(balanceOf(msg.sender) >= 300, "You do not have enough Degen Tokens");
             bool success = transfer(ownerOfContract, 300);
             if(success == true){
-                return "You are now the proud owner of The cube of bliss!";
+                return "You are now the proud owner of The sword of god!";
             }
         }
         else if(num == 4){

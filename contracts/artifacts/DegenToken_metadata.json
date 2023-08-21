@@ -525,11 +525,11 @@
 			]
 		},
 		"contracts/DegenGamingToken.sol": {
-			"keccak256": "0x727a9d509db7ab1d01809f33c1f94d077e7012173ccbd189d6df52605728e33b",
+			"keccak256": "0x52c0218623128a76cdfbcb078ecb5f6a0f05249730628ea066a93ef14c1c9c75",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://16b9dab3b91daaeabf4eb0cf6d288dd00815529dd7aa320ffdd0d1ed982c2962",
-				"dweb:/ipfs/QmTuycftyECxqCM2dmPKTVTzHyBXmXYB2GRyrD4UTkT4jh"
+				"bzz-raw://fddda980ef5043f4eb9bfbc4ec1d803d47e05505a30b7965349b687a6423e684",
+				"dweb:/ipfs/Qmdqi51LansJWPKU5YzTmC7TbuBuscjTgZyWhtJapnvJcf"
 			]
 		}
 	},
